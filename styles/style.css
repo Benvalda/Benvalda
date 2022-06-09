@@ -1,0 +1,240 @@
+body{
+    margin: 0%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(#AAA,#666);
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>.nav{
+    display: flex;
+    gap: 32px;
+}
+
+main{
+    background-image: linear-gradient(skyblue,darkblue);
+}
+
+a{
+    color: currentColor;
+    cursor: crosshair;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gold;
+}
+
+main>a:hover,main>div>a:hover,main>div>div>a:hover{
+    color: aqua;
+}
+
+/* ACCEUIL */
+
+.acceuil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation{
+    background-color: aquamarine;
+    text-align: center;
+    max-width: 40%;
+    padding: 16px 0px;
+    border: aqua solid 4px;
+    border-radius: 16px;
+}
+
+.moi{
+    width: 33%;
+    border: aqua solid 4px;
+}
+
+.p_presentation{
+    border-top: aqua solid 4px;
+    border-bottom: aqua solid 4px;
+    padding: 4px;
+}
+
+/* REALISATION */
+
+
+
+/* LOISIRS */
+
+.loisir{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.loisir>a{
+    background-color: aquamarine;
+    padding: 16px 0px;
+    margin: 64px;
+    border: aqua solid 4px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.L_bloc,.disclaimer{
+    display: flex;
+    gap: 32px;
+    background-color: aquamarine;
+    border: aqua solid 4px;
+    border-radius: 16px;
+    max-width: 66.66%;
+    margin: 64px;
+    padding: 16px;
+}
+
+.disclaimer{
+    margin: 2.5% auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.yt>div>.L_bloc{
+    display: block;
+}
+
+.L_bloc>img{
+    max-width: 33%;
+}
+
+.realisation>div>.L_bloc>img{
+    max-width: 66.6%;
+}
+
+.L_texte{
+    max-width: 67%;
+}
+
+.L_autre{
+    display: block;
+    margin: 64px auto;
+    text-align: center;
+}
+
+.L_galerie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.L_galerie>img,.L_galerie>a>img{
+    width: 100%;
+}
+
+.L_galerie>a:hover{
+    background-color: aqua;
+}
+
+.G{
+    display: flex;
+    justify-content: left;
+}
+
+.D{
+    display: flex;
+    justify-content: right;
+}
+
+.C{
+    display: flex;
+    justify-content: center;
+}
+
+/* CV */
+
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv_bloc{
+    background-color: aquamarine;
+    max-width: 33%;
+    padding: 16px;
+    border: aqua solid 4px;
+    border-radius: 16px;
+}
+
+/* ETUDES */
+
+.etude{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.etude_bloc{
+    display: flex;
+    background-color: aquamarine;
+    width: 33%;
+    padding: 16px;
+    border: aqua solid 4px;
+    border-radius: 16px;
+    gap: 16px;
+    margin: 5% auto;
+}
+
+.etude_bloc>div{
+    height: 100%;
+}
+
+.ligne{
+    background-color: black;
+    color: black;
+}
+
+.annee{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-style: italic;
+}
+
+.temps{
+    opacity: 0%;
+}
+
+/* FOOTER */
+
+
+footer{
+    background-color: black;
+    color: aqua;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail>a{
+    text-decoration: underline;
+}
+
+.contact>div{
+    margin: 4px 0px;
+}
+
+.contact>div>a:hover{
+    color: aquamarine;
+}
+
+.linkedin{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
